@@ -1,0 +1,17 @@
+@import './variables.css';
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.search-bar {
+    position: relative;
+    width: 35%;
+}
