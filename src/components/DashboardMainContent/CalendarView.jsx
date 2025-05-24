@@ -38,14 +38,14 @@ const CalendarView = () => {
 
       <div className="appointments">
         <div className="appointment-card dentist">
-          <p><strong>Dentist</strong></p>
+          <p><strong>Dentist 🦷</strong></p>
           <p>09:00–11:00</p>
-          <p>Dr. Cameron Williamson 🦷</p>
+          <p>Dr. Cameron Williamson </p>
         </div>
         <div className="appointment-card physio">
-          <p><strong>Physiotherapy Appointment</strong></p>
+          <p><strong>Physiotherapy Appointment 🏋️</strong></p>
           <p>11:00–12:00</p>
-          <p>Dr. Kevin Djones 🏋️</p>
+          <p>Dr. Kevin Djones </p>
         </div>
       </div>
     </div>

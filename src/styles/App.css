@@ -241,7 +241,7 @@
   display: flex;
   height: calc(100vh - 60px); 
   gap: 20px;
-  padding: 20px 30px;
+
   box-sizing: border-box;
   width: 100%;
   overflow: hidden;
@@ -249,7 +249,7 @@
 
 /* LEFT PANEL */
 .dashboard-left {
-  flex: 2.2;
+  flex: 2;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -284,7 +284,6 @@
 
 
 .calendar-view {
-  padding: 20px;
   background-color: #f8faff;
   border-radius: 16px;
 }
@@ -352,7 +351,6 @@
 
 .appointments {
   display: flex;
-  flex-direction: column;
   gap: 12px;
 }
 
@@ -371,4 +369,32 @@
 
 .physio {
   background-color: #e9e6ff;
+}
+
+.upcoming-schedule {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.upcoming-schedule h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  color: #333;
+}
+
+.upcoming-schedule h5 {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 12px 0 8px;
+  color: #666;
+}
+
+.schedule-cards{
+    display: flex;
+    gap: 15px;
 }
