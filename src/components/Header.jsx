@@ -1,28 +1,32 @@
 import React from 'react';
-import {FiSearch, FiBell, FiPlus} from 'react-icons/fi'
-import avtar from '../assets/avtar.avif'
+import {FiSearch, FiPlus} from 'react-icons/fi'
+import {MdNotifications} from 'react-icons/md'
+import avtar from '../assets/avtar.png'
 import '../styles/App.css'
 
 const Header = () =>{
     return(
     <header className='header'>
         <div className='logo'>
-            <p>HealthCare</p>
+            <p>Health<span>Care.</span></p>
         </div>
         <div className='search-bar'>
+        <div className='search'>
             <FiSearch className='search-icon'/>
             <input placeholder='Search' type='text'></input>
+            </div>
+             <div >
+                <MdNotifications className='bell-icon'/>
         </div>
-        <div className='icon'>
-                <FiBell/>
         </div>
+       
         <div className='header-right'>
             
             <div className='profile'>
                 <img src={avtar} alt='avtar'></img>
             </div>
-             <div className='icon'>
-                <FiPlus/>
+             <div className='plus-icon'>
+                <FiPlus className='plus'/>
         </div>
         </div>
     </header>
