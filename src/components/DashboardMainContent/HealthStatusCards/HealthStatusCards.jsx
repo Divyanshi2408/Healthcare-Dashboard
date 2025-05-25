@@ -21,9 +21,11 @@ const HealthStatusCards = () => {
     <div className="health-cards">
       {data.map(({ label, date, status, fill }) => (
         <div key={label} className={`health-card ${status}`}>
-          <img src={iconMap[label]} alt={label} className="health-icon" />
           <div className="health-info">
+          <div className='health-icon-container'>
+          <img src={iconMap[label]} alt={label} className="health-icon" />
             <p>{label}</p>
+            </div>
             <small>{date}</small>
             <div className="health-bar">
               <div

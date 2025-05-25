@@ -10,7 +10,6 @@ const DashboardMainContent = () => {
   return (
     <div className="dashboard-main-content">
       <div className="dashboard-left">
-    
         <DashboardOverview />
         <ActivityFeed />
       </div>

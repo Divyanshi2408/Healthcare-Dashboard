@@ -3,7 +3,6 @@
   display: flex;
   height: calc(100vh - 60px); 
   gap: 20px;
-
   box-sizing: border-box;
   width: 100%;
   overflow: hidden;

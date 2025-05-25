@@ -1,10 +1,10 @@
 .anatomy-container {
   position: relative;
-  width: 250px;
+  width: 240px;
 }
 
 .anatomy-img {
-  width: 100%;
+  width: 150%;
 }
 
 .indicator {
@@ -17,15 +17,15 @@
 }
 
 .heart {
-  top: 30px;
-  right: -10px;
+  top: 70px;
+  right: -95px;
   background-color: #5d5fef;
   color: white;
 }
 
 .leg {
-  bottom: 30px;
-  left: -20px;
+  bottom: 70px;
+  left: 44px;
   background-color: #00cfff;
   color: white;
 }

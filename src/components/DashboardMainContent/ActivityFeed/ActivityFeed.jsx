@@ -4,8 +4,10 @@ import './ActivityFeed.css';
 const ActivityFeed = () => {
   return (
     <div className="activity-feed">
+    <div className='activity-heading'>
       <h4>Activity</h4>
       <p>3 appointments on this week</p>
+      </div>
       <div className="bar-chart">
         {['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'].map((day, i) => (
           <div key={day} className="bar-day">

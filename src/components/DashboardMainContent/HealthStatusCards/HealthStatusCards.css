@@ -9,8 +9,8 @@
 }
 
 .health-icon {
-  width: 36px;
-  height: 36px;
+  width: 42px;
+  height: 42px;
   object-fit: contain;
 }
 
@@ -19,12 +19,18 @@
   flex-direction: column;
   justify-content: center;
   flex: 1;
+  gap: 12px;
 }
-
+.health-icon-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
 .health-info p {
   margin: 0;
-  font-size: 16px;
-  font-weight: 500;
+  font-size: 18px;
+  font-weight: 600;
   color: #333;
 }
 
@@ -36,7 +42,7 @@
 /* Progress bar */
 .health-bar {
   height: 6px;
-  width: 100%;
+  width: 140%;
   border-radius: 3px;
   background-color: #eee;
   margin-top: 6px;
