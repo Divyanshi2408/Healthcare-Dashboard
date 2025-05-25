@@ -1,7 +1,7 @@
 import React from 'react';
-import AnatomySection from './AnatomySection';
-import HealthStatusCards from './HealthStatusCards';
-import '../../styles/App.css';
+import AnatomySection from '../AnatomySection/AnatomySection';
+import HealthStatusCards from '../HealthStatusCards/HealthStatusCards';
+import './DashboardOverview.css';
 
 const DashboardOverview = () => {
   return (

@@ -1,0 +1,88 @@
+
+.calendar-view {
+  background-color: #f8faff;
+  border-radius: 16px;
+}
+
+.calendar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.calendar-header h4 {
+  margin: 0;
+  color: #4a4a4a;
+  font-size: 18px;
+}
+
+.nav-arrows span {
+  font-size: 18px;
+  margin: 0 6px;
+  cursor: pointer;
+  color: #666;
+}
+
+.calendar-week {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.calendar-day {
+  text-align: center;
+  width: 13%;
+}
+
+.day-box {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #fff;
+  color: #666;
+}
+
+.day-box.active {
+  background-color: #e6f0ff;
+  color: #000;
+}
+
+.day-box h5 {
+  margin: 5px 0 0;
+  font-size: 16px;
+}
+
+.time-slot {
+  margin-top: 5px;
+  color: #888;
+}
+
+.time-slot.highlight {
+  background-color: #4d47c3;
+  color: #fff;
+  padding: 3px 10px;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+.appointments {
+  display: flex;
+  gap: 12px;
+}
+
+.appointment-card {
+  background-color: #e9e6ff;
+  padding: 15px;
+  border-radius: 12px;
+  font-size: 14px;
+  color: #333;
+}
+
+.dentist {
+  background-color: #4d47c3;
+  color: #fff;
+}
+
+.physio {
+  background-color: #e9e6ff;
+}

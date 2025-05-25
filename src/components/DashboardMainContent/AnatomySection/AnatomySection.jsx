@@ -1,6 +1,6 @@
 import React from 'react';
-import '../../styles/App.css';
-import human from '../../assets/human.png'
+import './AnatomySection.css';
+import human from '../../../assets/human.png'
 
 const AnatomySection = () => {
   return (

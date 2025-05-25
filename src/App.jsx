@@ -1,16 +1,14 @@
 import React from 'react'
-import Header from './components/Header'
-import Sidebar from './components/Sidebar'
-import DashboardMainContent from './components/DashboardMainContent/DashboardMainContent'
+
+import Sidebar from './components/Sidebar/Sidebar'
+import DashboardMainContent from './components/DashboardMainContent/DashboardMainContent/DashboardMainContent'
 import './styles/App.css'
+import Header from './components/Header/Header'
 
 
 const App = () => {
   return (
     <>
-     {/* <Header/>
-     <Sidebar/>
-     <DashboardMainContent/> */}
       <div className="app-container">
       <Header />
       <div className="main-layout">

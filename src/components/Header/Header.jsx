@@ -1,8 +1,8 @@
 import React from 'react';
 import {FiSearch, FiPlus} from 'react-icons/fi'
 import {MdNotifications} from 'react-icons/md'
-import avtar from '../assets/avtar.png'
-import '../styles/App.css'
+import avtar from '../../assets/avtar.png'
+import './Header.css'
 
 const Header = () =>{
     return(

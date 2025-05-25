@@ -1,0 +1,11 @@
+.dashboard-overview {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  width: 100%;
+  box-sizing: border-box;
+}

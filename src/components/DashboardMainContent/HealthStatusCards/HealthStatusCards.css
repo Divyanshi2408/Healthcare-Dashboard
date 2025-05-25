@@ -1,0 +1,61 @@
+.health-card {
+  background: white;
+  padding: 15px 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.health-icon {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+}
+
+.health-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+}
+
+.health-info p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+}
+
+.health-info small {
+  font-size: 12px;
+  color: #888;
+}
+
+/* Progress bar */
+.health-bar {
+  height: 6px;
+  width: 100%;
+  border-radius: 3px;
+  background-color: #eee;
+  margin-top: 6px;
+  overflow: hidden;
+}
+
+.health-bar-fill {
+  height: 100%;
+  border-radius: 3px;
+}
+
+.health-bar-fill.red {
+  background-color: #f94f4f;
+}
+
+.health-bar-fill.green {
+  background-color: #00c6ad;
+}
+
+.health-bar-fill.orange {
+  background-color: #ffa500;
+}

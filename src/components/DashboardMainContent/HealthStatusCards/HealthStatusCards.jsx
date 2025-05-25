@@ -1,8 +1,8 @@
 import React from 'react';
-import lungsIcon from '../../assets/lungs.png';
-import teethIcon from '../../assets/theeth.png';
-import boneIcon from '../../assets/bone.png';
-import '../../styles/App.css';
+import lungsIcon from '../../../assets/lungs.png';
+import teethIcon from '../../../assets/theeth.png';
+import boneIcon from '../../../assets/bone.png';
+import './HealthStatusCards.css';
 
 const data = [
   { label: 'Lungs', date: '26 Okt 2021', status: 'red', fill: 60 },

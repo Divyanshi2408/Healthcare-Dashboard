@@ -1,0 +1,27 @@
+.upcoming-schedule {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.upcoming-schedule h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  color: #333;
+}
+
+.upcoming-schedule h5 {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 12px 0 8px;
+  color: #666;
+}
+
+.schedule-cards{
+    display: flex;
+    gap: 15px;
+}

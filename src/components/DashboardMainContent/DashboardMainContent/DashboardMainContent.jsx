@@ -1,10 +1,10 @@
 import React from 'react';
-import DashboardOverview from './DashboardOverview';
-import CalendarView from './CalendarView';
-import UpcomingSchedule from './UpcomingSchedule';
-import ActivityFeed from './ActivityFeed';
+import DashboardOverview from '../DashboardOverview/DashboardOverview';
+import CalendarView from '../CalendarView/CalendarView';
+import UpcomingSchedule from '../UpcomingSchedule/UpcomingSchedule';
+import ActivityFeed from '../ActivityFeed/ActivityFeed';
 
-import '../../styles/App.css';
+import './DashboardMainContent.css';
 
 const DashboardMainContent = () => {
   return (

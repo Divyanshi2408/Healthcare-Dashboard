@@ -1,6 +1,6 @@
 import React from 'react';
 import {FiGrid, FiClock, FiCalendar, FiClipboard, FiBarChart2, FiFileText, FiMessageSquare,FiHelpCircle, FiSettings} from 'react-icons/fi';
-import '../styles/App.css';
+import './Sidebar.css';
 
 const navItems =[
     {
