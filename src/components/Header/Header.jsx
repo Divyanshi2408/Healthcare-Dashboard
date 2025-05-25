@@ -111,32 +111,36 @@
 // export default Header;
 
 import React from 'react';
-import { FiSearch, FiPlus } from 'react-icons/fi';
+import { FiSearch, FiPlus, FiMenu } from 'react-icons/fi';
 import { MdNotifications } from 'react-icons/md';
-import avatar from '../../assets/avtar.png';
+import avtar from '../../assets/avtar.png';
 import './Header.css';
 
-const Header = () => {
+const Header = ({ toggleSidebar }) => {
   return (
     <header className="header">
-      {/* Logo */}
-      <div className="logo">
-        <p>Health<span>Care.</span></p>
+      <div className="logo-section">
+        {/* Hamburger only visible on small screens */}
+        <button className="menu-btn" onClick={toggleSidebar}>
+          <FiMenu />
+        </button>
+
+        <div className="logo">
+          <p>Health<span>Care.</span></p>
+        </div>
       </div>
 
-      {/* Search & Notification */}
       <div className="search-bar">
         <div className="search">
           <FiSearch className="search-icon" />
-          <input type="text" placeholder="Search" />
+          <input placeholder="Search" type="text" />
         </div>
         <MdNotifications className="bell-icon" />
       </div>
 
-      {/* Right Side: Avatar + Add */}
       <div className="header-right">
         <div className="profile">
-          <img src={avatar} alt="avatar" />
+          <img src={avtar} alt="avatar" />
         </div>
         <div className="plus-icon">
           <FiPlus className="plus" />

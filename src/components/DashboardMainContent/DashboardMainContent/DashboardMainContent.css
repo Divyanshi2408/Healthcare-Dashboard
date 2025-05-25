@@ -1,31 +1,3 @@
-/* 
-.dashboard-main-content {
-  display: flex;
-  height: calc(100vh - 60px); 
-  gap: 20px;
-  box-sizing: border-box;
-  width: 100%;
-  overflow: hidden;
-  padding: 0px 40px;
-}
-.dashboard-left {
-  flex: 2;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  gap: 20px;
-  overflow-y: auto;
-  width: 100%;
-}
-.dashboard-right {
-  flex: 1.8;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  overflow-y: auto;
-  width: 100%;
-} */
-
 .dashboard-main-content {
   display: flex;
   flex: 1;

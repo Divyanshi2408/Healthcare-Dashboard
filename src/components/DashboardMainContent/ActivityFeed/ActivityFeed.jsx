@@ -2,7 +2,6 @@ import React from 'react';
 import './ActivityFeed.css';
 
 const ActivityFeed = () => {
-  // Mock data: each day has an array of bar heights and colors
   const weekData = [
     [{ h: 40, c: '#ccc' }, { h: 50, c: '#00d4ff' }, { h: 30, c: '#5d5fef' }],
     [{ h: 60, c: '#ccc' }, { h: 35, c: '#5d5fef' }, { h: 25, c: '#00d4ff' }],
