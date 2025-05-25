@@ -5,9 +5,9 @@ import boneIcon from '../../../assets/bone.png';
 import './HealthStatusCards.css';
 
 const data = [
-  { label: 'Lungs', date: '26 Okt 2021', status: 'red', fill: 60 },
-  { label: 'Teeth', date: '26 Okt 2021', status: 'green', fill: 100 },
-  { label: 'Bone', date: '26 Okt 2021', status: 'orange', fill: 80 },
+  { label: 'Lungs', date: '26 Oct 2021', status: 'red', fill: 60 },
+  { label: 'Teeth', date: '26 Oct 2021', status: 'green', fill: 100 },
+  { label: 'Bone', date: '26 Oct 2021', status: 'orange', fill: 80 },
 ];
 
 const iconMap = {
