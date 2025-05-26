@@ -13,15 +13,16 @@
 
 .calendar-header h4 {
   margin: 0;
-  color: #4a4a4a;
+  color: var(--primary-blue);
   font-size: 18px;
+  font-weight: 600;
 }
 
 .nav-arrows span {
   font-size: 18px;
   margin: 0 6px;
   cursor: pointer;
-  color: #666;
+  color: var(--primary-blue);
 }
 
 .calendar-week {
@@ -40,6 +41,7 @@
   border-radius: 10px;
   background-color: #fff;
   color: #666;
+  color: var(--primary-blue);
 }
 
 .day-box.active {
@@ -50,15 +52,16 @@
 .day-box h5 {
   margin: 5px 0 0;
   font-size: 16px;
+  color: var(--primary-blue);
 }
 
 .time-slot {
   margin-top: 5px;
-  color: #888;
+  color: var(--primary-blue);
 }
 
 .time-slot.highlight {
-  background-color: #4d47c3;
+  background-color: var(--primary-blue);
   color: #fff;
   padding: 3px 10px;
   border-radius: 8px;
@@ -71,18 +74,19 @@
 }
 
 .appointment-card {
-  background-color: #e9e6ff;
+  background-color: var( --upcoming-card-bg);
   padding: 15px;
   border-radius: 12px;
   font-size: 14px;
-  color: #333;
+  color: var(--primary-blue);
 }
 
 .dentist {
-  background-color: #4d47c3;
+  background-color: var(--primary-blue);
   color: #fff;
 }
 
 .physio {
+  color: var(--primary-blue);
   background-color: #e9e6ff;
 }

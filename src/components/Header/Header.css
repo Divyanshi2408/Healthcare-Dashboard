@@ -30,11 +30,11 @@
 .logo p {
   font-size: 24px;
   font-weight: 600;
-  color: #2b2e4a;
+  color: var( --light-blue);
 }
 
 .logo span {
-  color: #6c63ff;
+  color: var(--primary-blue);
 }
 
 .search-bar {

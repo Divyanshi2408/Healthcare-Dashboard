@@ -36,6 +36,7 @@ const HealthStatusCards = () => {
           </div>
         </div>
       ))}
+       <h4 className='details-heading'>Details</h4>
     </div>
   );
 };

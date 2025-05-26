@@ -1,10 +1,41 @@
 :root {
-  --white: #ffffff;
-  --gray: #a0a0a0;
-  --text-dark: #2e2e2e;
-  --border-color: #e0e0e0;
-  --bg-light: #f8f9fa;
-  --primary-blue: #3b82f6;
-  --dark-blue:#164ca3;
-  --icon-color: #6b7280;
+  /* Base */
+  --sidebar-bg: #ffffff;
+  --main-bg: #f7f9fb;
+  --card-bg: #ffffff;
+  --search-bg: #f1f5ff;
+
+  /* Typography */
+  --text-dark: #333c4d;
+  --text-muted: #7d8a99;
+
+  /* Primary & Accent Colors */
+  --primary-blue: #3661eb;
+  --light-blue: #00cfff;
+  --accent-green: #1cc98f;
+  --accent-red: #f26c6d;
+  --accent-teeth: #00c2ff;
+  --accent-bone: #fc9e4f;
+
+  /* Calendar */
+  --calendar-active: #3661eb;
+  --calendar-bg: #edf0ff;
+
+  /* Appointments */
+  --appointment-dentist: #dbe4ff;
+  --appointment-physio: #e8fff3;
+
+  /* Upcoming Cards */
+  --upcoming-card-bg: #edf0ff;
+
+  /* Icons */
+  --icon-gray: #7d8a99;
+  --icon-blue: #3661eb;
+
+  /* Shadows & Border */
+  --card-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  --radius: 16px;
+
+  /* Font */
+  --font-primary: 'Poppins', sans-serif;
 }

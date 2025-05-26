@@ -1,9 +1,24 @@
+.dashboard-header{
+ display: flex;
+ justify-content: space-between;
+ color: var(--primary-blue);
+}
+.dash-heading{
+  font-size: 24px;
+  font-weight: 600;
+}
+.week-heading{
+  font-size: 12px;
+  font-weight: 500;
+  margin-right: 43px;
+}
+
 .dashboard-overview {
   display: flex;
   gap: 40px;
   flex-wrap: wrap;
   align-items: flex-start;
-  justify-content: flex-start; /* <-- not space-between or center */
+  justify-content: flex-start;
 }
 
 

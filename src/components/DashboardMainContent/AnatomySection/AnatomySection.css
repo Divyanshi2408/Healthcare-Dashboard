@@ -61,7 +61,7 @@
 
 .heart {
   top: 42%;
-  right: -35px; /* reduced to prevent right overflow */
+  right: -35px; 
   background-color: #5d5fef;
   color: white;
 }
@@ -69,7 +69,7 @@
 .leg {
   bottom: -22%;
   left: -6%;
-  background-color: #00cfff;
+  background-color: var( --light-blue);
   color: white;
 }
 

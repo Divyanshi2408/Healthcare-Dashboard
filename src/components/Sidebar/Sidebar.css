@@ -26,20 +26,20 @@
 }
 .nav-heading{
     font-size: 12px;
-    color: var(--gray);
+    color: var( --icon-gray);
 }
 .nav-item {
   font-size: 16px;
   display: flex;
   align-items: center;
   gap: 10px;
-  color: var(--gray);
+  color: var( --icon-gray);
   cursor: pointer;
   transition: color 0.3s ease;
 }
 
 .nav-item:hover {
-  color: var(--dark-blue);
+  color: var( --primary-blue);
 }
 
 .sidebar.open {
