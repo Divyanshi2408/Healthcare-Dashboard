@@ -9,4 +9,5 @@ const SimpleAppointmentCard = ({ title, time }) => {
   );
 };
 
+
 export default SimpleAppointmentCard;

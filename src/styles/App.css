@@ -28,12 +28,4 @@
   overflow-y: auto;
 }
 
-/* @media (max-width: 1024px) {
-  .layout-wrapper {
-    flex-direction: column;
-  }
 
-  .main-layout {
-    padding: 16px;
-  }
-} */

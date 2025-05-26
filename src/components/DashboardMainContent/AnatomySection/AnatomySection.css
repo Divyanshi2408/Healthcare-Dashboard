@@ -1,42 +1,8 @@
-/* .anatomy-container {
-  position: relative;
-  width: 230px;
-}
-
-.anatomy-img {
-  width: 150%;
-}
-
-.indicator {
-  position: absolute;
-  background: #fff;
-  padding: 6px 10px;
-  border-radius: 12px;
-  font-size: 12px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-
-.heart {
-  top: 70px;
-  right: -95px;
-  background-color: #5d5fef;
-  color: white;
-}
-
-.leg {
-  bottom: 70px;
-  left: 44px;
-  background-color: #00cfff;
-  color: white;
-}
- */
-
-
 .anatomy-container {
   position: relative;
   width: 100%;
   max-width: 230px;
-  margin: 15px; /* no auto centering */
+  margin: 15px; 
   overflow: visible;
 }
 
@@ -47,7 +13,6 @@
   display: block;
 }
 
-/* Indicator styles */
 .indicator {
   position: absolute;
   background: #fff;
@@ -73,7 +38,6 @@
   color: white;
 }
 
-/* Responsive: Tablet */
 @media (max-width: 768px) {
   .anatomy-container {
     max-width: 180px;
@@ -91,7 +55,6 @@
  
 }
 
-/* Responsive: Mobile */
 @media (max-width: 480px) {
   .anatomy-container {
     max-width: 160px;
