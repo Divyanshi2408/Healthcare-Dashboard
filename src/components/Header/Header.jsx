@@ -7,8 +7,8 @@ import './Header.css';
 const Header = ({ toggleSidebar }) => {
   return (
     <header className="header">
+    <div className='header-left'>
       <div className="logo-section">
-        {/* Hamburger only visible on small screens */}
         <button className="menu-btn" onClick={toggleSidebar}>
           <FiMenu />
         </button>
@@ -25,7 +25,7 @@ const Header = ({ toggleSidebar }) => {
         </div>
         <MdNotifications className="bell-icon" />
       </div>
-
+</div>
       <div className="header-right">
         <div className="profile">
           <img src={avtar} alt="avatar" />

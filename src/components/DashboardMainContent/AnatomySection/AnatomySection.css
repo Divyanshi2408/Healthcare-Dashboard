@@ -106,5 +106,14 @@
     padding: 3px 6px;
   }
 
+.heart {
+  top: 32%;
+  right: -35px; 
 
+}
+
+.leg {
+  bottom: -1%;
+  left: -6%;
+}
 }

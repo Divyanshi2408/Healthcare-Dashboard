@@ -11,7 +11,12 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
   flex-wrap: wrap;
 }
-
+.header-left{
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+  flex-wrap: wrap;
+}
 .logo-section {
   display: flex;
   align-items: center;
@@ -41,11 +46,11 @@
   display: flex;
   align-items: center;
   gap: 15px;
-  border: 1px solid var(--border-color);
+  border: 1px solid var( --search-bg);
   border-radius: 5px;
   padding: 6px 10px;
   width: 35%;
-  min-width: 200px;
+  min-width: 500px;
 }
 
 .search {
@@ -53,6 +58,7 @@
   align-items: center;
   gap: 10px;
   flex: 1;
+  color: var(--primary-blue);
 }
 
 .search input {
@@ -63,7 +69,7 @@
 }
 
 .bell-icon {
-  color: var(--dark-blue);
+  color: var(--primary-blue);
   font-size: 20px;
   cursor: pointer;
 }

@@ -11,12 +11,13 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 16px;
+  
 }
 
 .activity-heading h4 {
   margin: 0;
   font-size: 1rem;
-  color: #1a1a1a;
+  color: var(--primary-blue);
 }
 
 .activity-heading p {
