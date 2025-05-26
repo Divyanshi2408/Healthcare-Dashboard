@@ -1,8 +1,22 @@
-# React + Vite
+# 🏥 Healthcare Dashboard UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A static, responsive healthcare dashboard built with **React** and **CSS Modules/Global CSS** — replicates a clean, professional design with anatomy visuals, upcoming schedule, calendar, and more.
 
-Currently, two official plugins are available:
+## 📸 Screenshot
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Image](https://github.com/user-attachments/assets/a1e85734-34bb-489c-86ac-29e3f964ec0e)
+---
+
+## 🚀 Features
+
+- Fully responsive header layout
+- Sidebar navigation
+- Anatomical health indicators
+- Upcoming schedule with icons
+- Static calendar & appointment cards
+---
+## 🛠️ Tech Stack
+
+- React JS
+- CSS Modules + Global CSS
+- React Icons
